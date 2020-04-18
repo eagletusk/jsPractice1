@@ -15,8 +15,8 @@ function assertArraysEqual(actual, expected, testName) {
 }
 
 
-// var expected = ['b', 'r', 'o', 'k', 'e', 'n'];
-// var actual = 'broken'.split('');
-// assertArraysEqual(actual, expected, 'splits string into array of characters');
-// // passed
+var expected = ['b', 'r', 'o', 'k', 'e', 'n'];
+var actual = 'broken'.split('');
+assertArraysEqual(actual, expected, 'splits string into array of characters');
+// passed
 
